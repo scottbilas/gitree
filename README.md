@@ -44,6 +44,7 @@ Options:
   -t, --tracked           only show tracked files
   -c, --collapse          collapse directory nodes that contain a single child
   -d, --devicons          print matching devicons next to files
+  -n, --noroot            don't print the root node
   -I, --ignore <pattern>  do not list files that match the given pattern
   -h, --help              output usage information
 ```
