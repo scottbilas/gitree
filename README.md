@@ -33,7 +33,7 @@ It won't work. You must be somewhere within a Git repository to list any files. 
 
 Just this stuff:
 
-``` sh
+``` 
 Usage: gitree [options] [dir]
 
 
@@ -42,6 +42,7 @@ Options:
   -V, --version           output the version number
   -m, --modified          only show modified files
   -t, --tracked           only show tracked files
+  -n, --noroot            don't print the root node
   -I, --ignore <pattern>  do not list files that match the given pattern
   -h, --help              output usage information
 ```
