@@ -68,9 +68,9 @@ async function gitree (p) {
 	const nodes = await buildNodes(files, gitStatuses, gitLineChanges, p, program.tracked)
 	const tree = buildTree(nodes, p, program.ignore)
 
-  function doPrintTree(tree) {
+	function doPrintTree(tree) {
 		printTree(tree, program.collapse, program.devicons)
-  }
+	}
 
 	if (program.noroot)
 		tree.forEach(node => doPrintTree(node.contents))
